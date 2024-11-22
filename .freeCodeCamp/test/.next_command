@@ -209,3 +209,8 @@ psql -U postgres < worldcup.sql
 clear
 ./queries.sh
 clear
+git remote set-url origin https://github.com/jborglum/worldCupDatabase.git
+git branch -M main
+git push origin main
+git checkout -b main
+git add .
